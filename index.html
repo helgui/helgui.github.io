@@ -1,1 +1,31 @@
-<!doctypehtml><meta charset=utf-8><meta content="width=device-width,initial-scale=1"name=viewport><meta content="CoC market helper"name=description><link href="https://fonts.googleapis.com/css?family=Nunito:300,400,700"rel=stylesheet><link href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css rel=stylesheet><link href=/css/lit.css rel=stylesheet><style>.fa{margin-right:8px}</style><title>CoC market</title><body class=c><h3>CoC market listings sorted by price</h3><table class=w-100 id=listings-table><thead><tr><th>Item<th>Token ID<th>Exp<th>Price<tbody><tbody></table><button class="btn primary"id=load-btn onclick=loadMore(15)><i class="fa fa-refresh"></i>Loading...</button><script src=/scripts/ethers.min.js></script><script src=/scripts/market.js></script>
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="CoC market helper">
+        <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,700" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+        <link rel="stylesheet" href="/css/lit.css">
+        <style>.fa{margin-right: 8px;}</style>
+        <title>CoC market</title>
+    </head>
+    <body class="c">
+        <h3>CoC market listings sorted by price</h3>
+        <table id="listings-table" class="w-100">
+            <thead>
+                <tr>
+                    <th>Item</th>
+                    <th>Token ID</th>
+                    <th>Exp</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+            <tbody>
+        </table>
+        <button id="load-btn" class="btn primary" onclick="loadMore(15);"><i class="fa fa-refresh"></i>Loading...</button>
+        <script src="/scripts/ethers.min.js" type="application/javascript"></script>
+        <script src="/scripts/market.js" type="application/javascript"></script>
+    </body>
+</html>
